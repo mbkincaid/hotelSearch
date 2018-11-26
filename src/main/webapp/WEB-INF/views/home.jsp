@@ -21,15 +21,14 @@
           <div>
             <label><strong>Select City</strong></label>
             <select name="city">
-            	<option value="--" selected disabled hidden>--</option>
+<!--            <option value="--" selected disabled hidden>--</option> -->
             	<option value="Detroit">Detroit</option>
             	<option value="Cleveland">Cleveland</option>
             	<option value="Columbus">Columbus</option>
             </select>
           </div>
           <div>
-            <label>Maximum Price</label>
-            <input>
+<!--             <label>Maximum Price</label> -->
           </div>
         </div>
         <button type="submit"> Search</button>
