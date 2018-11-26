@@ -11,10 +11,9 @@
 		<h1>Hotel Search</h1>
 	</div>
 <header>
-  
   <div>
     <div>
-      <h2>Find Hotel</h2>
+      <h2>City</h2>
     </div>
     <div>
       <form action="/results">
@@ -25,12 +24,12 @@
             	<option value="--" selected disabled hidden>--</option>
             	<option value="Detroit">Detroit</option>
             	<option value="Cleveland">Cleveland</option>
-            	<option value="Columbus">Detroit</option>
+            	<option value="Columbus">Columbus</option>
             </select>
           </div>
           <div>
             <label>Maximum Price</label>
-            <input type="number" value="175" name="max" min="1">
+            <input>
           </div>
         </div>
         <button type="submit"> Search</button>

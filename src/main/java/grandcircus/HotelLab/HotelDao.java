@@ -13,10 +13,9 @@ public class HotelDao {
 	@PersistenceContext
 	private EntityManager em;
 	
-	public List<Hotel> findByName(String city){
+	public List<Hotel> findByCity(String city){
 		
-		String sql = "FROM Hotel WHERE city = :city ORDER BY price";
-		
-		return em.createQuery(sql, Hotel.class).setParameter("city", city).getResultList();
+		return em.createQuery("FROM Hotel WHERE city = :city", Hotel.class)
+				.setParameter("city", city).getResultList();
 	}
 }
